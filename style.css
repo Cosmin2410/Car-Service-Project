@@ -644,32 +644,73 @@ body{
 
 
 
-  /* Brand Parts */
+  /* Appointment */
 
-.brand-parts{
+.appointment{
+    background-color: #F90716;
+    margin: 3rem;
+    padding: 2rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
+    color: white;
+    width: 55rem;
+    margin: 0 auto;
 }
 
-.brand-parts img{
-    height: 5rem;
-    width: 5rem;
-    filter: grayscale(1);
+.appointment-title h2{
+    font-size: 1.8rem;
+    margin-bottom: .7rem;
+}
+
+.appointment-title p{
+    opacity: .8;
+    font-size: .9rem;
+}
+
+.appointment button{
+    width: 10rem;
+    height:3rem;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.number-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
 
 
-
-@media(max-width:44.93em){
-    .brand-parts{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        border: 5px solid salmon;
-        justify-content: center;
-        align-items: center;
+@media(max-width:61.25em){
+    .appointment{
+        flex-direction: column;
+        text-align: center;
+        max-width: 35rem;    
     }
 
-    .brand-parts img{
+    .number-button{
+        margin: 2rem;
+}
+}
+
+@media(max-width:41.25em){
+    .appointment{
+        max-width: fit-content;
+    }
+
+    .number-button{
+        flex-direction: column;
+        gap: .8rem;
         
     }
 }
+
+
+
