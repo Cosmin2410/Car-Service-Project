@@ -80,6 +80,7 @@ body{
     background-color: white;
     padding: 0.5rem 2rem;
     width: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
 }
 
 .logo{
@@ -654,7 +655,7 @@ body{
     align-items: center;
     color: white;
     max-width: 55rem;
-    margin: 0 auto;
+    margin: 5rem auto;
 }
 
 .appointment-title h2{
@@ -726,7 +727,6 @@ body{
 footer{
     background-color: #081336;
     color: white;
-    margin-top: 5rem;
 }
 
 
@@ -936,5 +936,106 @@ footer a:hover{
     .footer-copyright{
         flex-direction: column;
         gap: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         /* Services  Page */
+
+
+.services-title{
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.services-title h1::after{
+    content: '';
+    display: block;
+    margin: .4rem auto;
+    margin-bottom: 1.5rem;
+    width: 9rem;
+    height: .15rem;
+    background-color: #F90716;
+}
+
+.services-title p{
+    opacity: .8;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    max-width: 30rem;
+}
+
+
+
+
+
+
+
+
+
+.services-page{
+    display: grid;
+    grid-template-columns: repeat(3, 20rem);
+    justify-content: center;
+    padding-top:3rem;
+    gap: 3rem;
+}
+
+.link-arrow a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.services-page img{
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.service-card{
+    width:20rem;
+    border-bottom: solid 3px #F90716;
+}
+
+
+.link-arrow{
+    display: flex;
+    justify-content: space-between;
+    padding: .8rem 1.5rem ;
+    background-color: #081336;
+    margin-top: -5px;
+    text-align: center;
+}
+
+.link-arrow .fa{
+    color: #F90716;
+    font-size: 1.2rem;
+}
+
+@media(max-width:68.75em){
+    .services-page{
+        grid-template-columns: repeat(2, 20rem);
+    }
+}
+
+@media(max-width:46.87em){
+    .services-page{
+        grid-template-columns: 20rem;
     }
 }
