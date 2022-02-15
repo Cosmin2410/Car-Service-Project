@@ -1346,3 +1346,223 @@ table td{
     }
 
 }
+
+
+
+
+     
+
+      /* About Us Page */
+
+
+
+
+
+
+   /* Title About Us */
+
+
+.title-aboutus {
+    text-align: center;
+    color: #081336;
+    margin-top: 3rem;;
+}
+
+.title-aboutus h1{
+    font-size: 3.5rem;
+}
+
+.title-aboutus h1::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 5rem;
+    height: .2rem;
+    background-color: #F90716;
+}
+
+.title-aboutus p {
+    max-width: 30rem;
+    margin: 1rem auto;
+    margin-bottom: 6rem;
+    opacity: .8;
+    font-size: 1.2rem;
+}
+
+
+
+
+    /* Description About Us */
+
+.description-aboutus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 8rem;
+    color: #081336;
+}
+
+.image-aboutus img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-aboutus{
+    max-width: 30rem;
+}
+
+.text-aboutus span{
+    color: #F90716;
+    opacity: 1;
+}
+
+
+.text-aboutus h2 {
+    color: #081336;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.text-aboutus p {
+    margin-bottom: 2rem;
+    opacity: .8;
+    color: #081336;
+    margin-left: .3rem;
+    font-size: 1.3rem;
+}
+
+
+@media(max-width:63em){
+    .description-aboutus{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .text-aboutus h2{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+   /* Choose Us About US */
+
+
+
+
+.choose-us-aboutus{
+    background-color: #F90716;
+    color: white;
+    margin: 5rem 0;
+    padding: 3rem 0;
+}
+
+
+.choose-us-text-icon h2{
+    font-size: 1.9rem;
+}
+
+.choose-us-text-icon h2::after{
+    content: '';
+    display: block;
+    width: 20rem;
+    height: .2rem;
+    margin-top: .2rem;
+    background-color: white;
+}
+
+
+.text-image-aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.icon-text-aboutus{
+    display: flex;
+    align-items: flex-start;
+    gap: .5rem;
+    max-width: 35rem;
+    padding: 3rem 0;
+}
+
+.icon-text-aboutus h2{
+    margin: 1.5rem 0;
+}
+
+.icon-text-aboutus p{
+    opacity: .9;
+    margin: .8rem 0;
+}
+
+
+.icon-text-aboutus img{
+    width: 3.7rem;
+}
+
+    .text-image-aboutus img{
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+@media(max-width:99.37em){
+
+    .icon-text-aboutus img{
+        width: 3.7rem;
+    }
+
+    .text-image-aboutus{
+        flex-direction: column;
+    }
+
+    .choose-us-text-icon h2{
+        text-align: center;
+    }
+
+    .choose-us-text-icon h2::after{
+        margin: 0 auto;
+        width: 6rem;
+    }
+}
+
+
+
+
+              /* Numbers About Us */
+
+
+
+.count-number{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.count h3{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    color: #081336;
+}
+
+.count p{
+    opacity: .8;
+    font-size: 1.1rem;
+}
+
+@media(max-width:50em){
+    .count-number{
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
