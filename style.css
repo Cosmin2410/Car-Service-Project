@@ -124,7 +124,7 @@ body{
 
 
 .main-page{
-    background: url('../images/header.jpg');
+    background: url('images/header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -390,7 +390,7 @@ body{
 
 
 .services{
-    background: url('../images/pattern.png'), rgb(231, 230, 230);
+    background: url('images/pattern.png'), rgb(231, 230, 230);
     color:#081336;
     padding: 5rem ;
     background-size: cover;
@@ -574,7 +574,7 @@ body{
     gap: 2rem;
     padding: 5rem 0;
     margin: 5rem 0;
-    background:url('../images/bg-3.png');
+    background:url('images/bg-3.png');
     background-color:#081336;
     color: white;
     background-repeat: no-repeat;
