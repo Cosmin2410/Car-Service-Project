@@ -957,10 +957,15 @@ footer a:hover{
 
          /* Services  Page */
 
-
 .services-title{
-    padding: 3rem 0;
+    color: #081336;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
+}
+
+.services-title h1{
+    font-size: 3.5rem;
 }
 
 .services-title h1::after{
@@ -974,12 +979,12 @@ footer a:hover{
 }
 
 .services-title p{
-    opacity: .8;
-    font-size: 1.1rem;
-    margin: 0 auto;
     max-width: 30rem;
+    margin: 1rem auto;
+    margin-bottom: 6rem;
+    opacity: .8;
+    font-size: 1.2rem;
 }
-
 
 
 
@@ -1067,6 +1072,9 @@ footer a:hover{
     margin-bottom: 4rem;
     color: #081336;
 }
+
+
+
 
 .card-title::after{
     content: '';
@@ -1564,5 +1572,113 @@ table td{
     .count-number{
         flex-direction: column;
         gap: 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+       /* Contact Page */
+
+
+.contact-title{
+    color: #081336;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.contact-title h1{
+    font-size: 3.5rem;
+}
+
+
+.contact-title h1::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 5rem;
+    height: .2rem;
+    background-color: #F90716;
+}
+
+
+
+.contact-title p{
+    max-width: 30rem;
+    margin: 1rem auto;
+    margin-bottom: 6rem;
+    opacity: .8;
+    font-size: 1.2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.map-disount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+
+.discount-services-maps{
+    text-align: center;
+    color: #081336;
+    border: solid 1px #F90716;
+    padding: 5rem 1.5rem;
+}
+
+.discount-services-maps .fa-percent{
+    font-size: 3rem;
+    color: #F90716;
+}
+
+.discount-services-maps h3{
+    margin-top: 1.3rem;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+.discount-services-maps p{
+    opacity: .8;
+    width: 13rem;
+    margin: 0 auto;
+}
+
+
+
+
+@media(max-width:61.25em){
+    .map-disount{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:38.12em){
+    .map-disount iframe{
+        width: 30rem;
+    }
+}
+
+@media(max-width:31.25em){
+    .map-disount iframe{
+        width: 17rem;
     }
 }
