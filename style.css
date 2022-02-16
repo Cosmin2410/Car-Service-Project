@@ -1252,16 +1252,15 @@ footer a:hover{
 
 table{
     padding: 1rem .5rem;
-    width: 40rem;
+    width: 35rem;
     border-collapse: collapse;
     color: #081336;
     margin: 2rem auto;
 }
 
 table td{
-    width: 50%;
     padding: 1rem;
-    
+    width: 35rem;
 }
 
 .odd{
