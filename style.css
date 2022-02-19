@@ -76,15 +76,16 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: black;
     background-color: white;
-    padding: 0.5rem 2rem;
+    padding: .5rem 2rem;
     width: auto;
     border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+    font-size: 1.1rem;
 }
 
 .logo{
     margin-right: auto;
+    font-size: 2rem;
 }
 
 
@@ -98,17 +99,35 @@ body{
 }
 
 .header a{
-    color: black;
+    color: #081336;
     text-decoration: none;
+}
+
+.header a:hover{
+    border-bottom: 2px solid #F90716;
 }
 
 .header a:hover{
     color: #F90716;
 }
 
+
+.link-border{
+    border-bottom: 2px solid #F90716;
+}
+
+
+
 @media(max-width:55.37em){
     .header{
         flex-direction: column;
+    }
+
+    .header ul{
+        flex-direction: column;
+        text-align: center;
+        padding-top:2rem;
+        padding-bottom:1rem;
     }
 
     .logo{
@@ -187,6 +206,7 @@ body{
 
 .choose-us{
     padding: 3rem 0;
+    color: #081336;
 }
 
 
