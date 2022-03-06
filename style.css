@@ -1447,6 +1447,22 @@ table td {
 
 /* Testimonial #2 */
 
+.testimonial-title {
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.testimonial-title::after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  background-color: #f90716;
+  width: 9rem;
+  height: 0.15rem;
+  margin-top: 0.5rem;
+}
+
 .review {
   display: none;
 }
@@ -1462,87 +1478,86 @@ table td {
 
 .image-visible {
   display: block;
-  /* animation: fadeVisibily 500ms; */
 }
 
 .image img {
   width: 23rem;
-  max-width: 23rem;
-  height: 100%;
+  height: 23rem;
   opacity: 0.8;
-  position: relative;
-  z-index: -1;
-  margin-left: -2.5rem;
+  object-fit: cover;
 }
 
 /* Left side testimonial */
+
+.review-images-title {
+  background: url('images/bg-3.png');
+  background-color: #081336;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+}
 
 .review-images {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  /* background-image: url('/images/pattern-quotes.svg');
-  background-repeat: no-repeat; */
+  position: relative;
+  width: 63rem;
+  margin: 0 auto;
 }
 
 /* Text testimonial */
 .experience-testimonial {
   font-size: 1.2rem;
-  color: hsl(240, 38%, 20%);
+  color: white;
   max-width: 26rem;
+  opacity: 0.8;
 }
 
 /* Name and ocupation */
 
 .name-field {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  color: hsl(240, 100%, 22%, 0.596);
-  font-size: 1rem;
-}
-
-.name-field h5 {
-  color: hsl(240, 38%, 20%);
-  font-size: 1rem;
-}
-
-/* Image and buttons container */
-
-.images-buttons {
-  position: relative;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 /* Navigation buttons */
 
 .nav-btns {
-  background-color: white;
+  position: absolute;
   display: flex;
   justify-content: space-between;
-  box-sizing: border-box;
-  padding: 0.3rem;
-  border-radius: 15px;
-  margin-top: -1.5rem;
-  position: absolute;
-  box-shadow: 1px 1px 4px rgb(121, 111, 111);
-  width: 4.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90%;
 }
 
-.prev-button,
-.next-button {
-  background-color: rgba(255, 255, 255, 0);
+.next-button,
+.prev-button {
+  background-color: white;
   border-radius: 50%;
   border: none;
   cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.prev-button-icon {
+.prev-button-icon,
+.next-button-icon {
   height: 1rem;
 }
 
-.next-button-icon {
-  height: 0.99rem;
+.quotes {
+  position: absolute;
+  right: 52rem;
+  width: 3rem;
 }
 
 @keyframes fadeVisibily {
@@ -1555,20 +1570,14 @@ table td {
   }
 }
 
-.quotes {
-  position: absolute;
-  right: 40rem;
-}
-
-@media (max-width: 50.62em) {
+@media (max-width: 63.12em) {
   .review-images {
     flex-direction: column-reverse;
-    background-image: none;
+    max-width: 26rem;
   }
 
   .experience-testimonial {
     text-align: center;
-    margin-top: 3rem;
   }
 
   .name-field {
@@ -1576,6 +1585,7 @@ table td {
     flex-direction: column;
     gap: 0.3rem;
     margin-top: 0.9rem;
+    text-align: center;
   }
 
   .name-field h5,
@@ -1588,19 +1598,35 @@ table td {
     width: 20rem;
     margin: 0 auto;
     margin-bottom: 2rem;
+    opacity: 1;
   }
 
   .nav-btns {
-    margin-top: -3rem;
-    margin-left: 6.5rem;
-    width: 7rem;
+    bottom: 3rem;
+    width: 100%;
   }
 
   .quotes {
     display: block;
     position: absolute;
-    width: 4rem;
-    top: 22rem;
-    left: 8rem;
+    width: 3rem;
+    top: 21rem;
+    left: 11rem;
+  }
+}
+
+@media (max-width: 26.56em) {
+  .review-images {
+    max-width: 20rem;
+  }
+
+  .quotes {
+    left: 8.5rem;
+  }
+
+  .next-button,
+  .prev-button {
+    border-radius: 0%;
+    background-color: #081336;
   }
 }
