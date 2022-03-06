@@ -76,3 +76,24 @@ function moveToPrevSlide() {
   updateSlidePositionText();
   updateSlidePositionImages();
 }
+
+// Count Numbers
+
+const numbers = document.querySelectorAll('.number');
+
+numbers.forEach((number) => {
+  number.innerHTML = '0';
+
+  const loopCounter = () => {
+    dataAttr = +number.getAttribute('data-counter');
+    initialValue = +number.innerHTML;
+    divideDataAttr = dataAttr / 400;
+    if (initialValue < dataAttr) {
+      number.innerHTML = `${Math.ceil(initialValue + divideDataAttr)}`;
+      setTimeout(loopCounter, 1);
+    } else {
+      number.innerHTML = dataAttr;
+    }
+  };
+  loopCounter();
+});
