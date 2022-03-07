@@ -77,23 +77,32 @@ function moveToPrevSlide() {
   updateSlidePositionImages();
 }
 
-// Count Numbers
+// Count numbers when the page is scrolled
 
-const numbers = document.querySelectorAll('.number');
+let executed = false;
+window.addEventListener('scroll', () => {
+  let content = document.querySelector('.count-number');
+  let contentPosition = content.getBoundingClientRect().top;
+  let screenPosition = window.innerHeight;
+  if (!executed && contentPosition < screenPosition) {
+    const numbers = document.querySelectorAll('.number');
 
-numbers.forEach((number) => {
-  number.innerHTML = '0';
+    numbers.forEach((number) => {
+      number.innerHTML = '0';
 
-  const loopCounter = () => {
-    dataAttr = +number.getAttribute('data-counter');
-    initialValue = +number.innerHTML;
-    divideDataAttr = dataAttr / 400;
-    if (initialValue < dataAttr) {
-      number.innerHTML = `${Math.ceil(initialValue + divideDataAttr)}`;
-      setTimeout(loopCounter, 1);
-    } else {
-      number.innerHTML = dataAttr;
-    }
-  };
-  loopCounter();
+      const loopCounter = () => {
+        dataAttr = +number.getAttribute('data-counter');
+        initialValue = +number.innerHTML;
+        divideDataAttr = dataAttr / 450;
+        if (initialValue < dataAttr) {
+          number.innerHTML = `${Math.ceil(initialValue + divideDataAttr)}`;
+          executed = true;
+          setTimeout(loopCounter, 1);
+        } else {
+          number.innerHTML = dataAttr;
+        }
+      };
+      loopCounter();
+    });
+  }
 });
