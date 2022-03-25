@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -1690,4 +1691,37 @@ table td {
 
 .services-menu li {
   display: none;
+}
+
+/* Go up button */
+
+.page-up-btn {
+  position: fixed;
+  border-radius: 50%;
+  background-color: #f90716;
+  border: 1px solid #081336;
+  height: 3rem;
+  width: 3rem;
+  right: 5rem;
+  bottom: 5rem;
+  z-index: 5;
+}
+
+.page-up-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  cursor: pointer;
+}
+
+.page-up-btn a img {
+  width: 2rem;
+}
+
+@media (max-width: 75em) {
+  .page-up-btn {
+    right: 2rem;
+    bottom: 3rem;
+  }
 }
