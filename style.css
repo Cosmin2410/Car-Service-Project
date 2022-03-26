@@ -1703,7 +1703,7 @@ table td {
   height: 3rem;
   width: 3rem;
   right: 5rem;
-  bottom: 5rem;
+  bottom: 5.5rem;
   z-index: 5;
 }
 
@@ -1722,6 +1722,80 @@ table td {
 @media (max-width: 75em) {
   .page-up-btn {
     right: 2rem;
-    bottom: 3rem;
+    bottom: 8.8rem;
   }
+}
+
+/* Termns and conditions */
+
+.terms-conditions h1 {
+  margin: 2rem;
+  font-size: 1.7rem;
+}
+
+.terms-conditions h2 {
+  margin: 1rem;
+}
+
+.terms-conditions p {
+  opacity: 0.9;
+  margin-left: 1rem;
+}
+
+.terms-conditions ul {
+  margin-left: 2rem;
+  opacity: 0.9;
+}
+
+/* privacy policy */
+
+.privacy-policy h1 {
+  margin: 2rem;
+  font-size: 1.7rem;
+}
+
+.privacy-policy h2 {
+  margin: 1rem;
+}
+
+.privacy-policy p {
+  opacity: 0.9;
+  margin-left: 1rem;
+}
+
+/* Cookie Pop Up */
+
+.cookie-pop-up {
+  position: fixed;
+  background-color: #333;
+  bottom: 0rem;
+  left: 0;
+  right: 0;
+  color: white;
+  padding: 1rem;
+}
+
+.text-cookie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: center;
+}
+
+.text-cookie a {
+  color: white;
+}
+
+.close-cookie-yes {
+  cursor: pointer;
+}
+
+.close-cookie {
+  width: 1.1rem;
+  display: flex;
+  margin-bottom: 0.8rem;
+  margin-left: auto;
+  cursor: pointer;
 }

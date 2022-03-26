@@ -70,3 +70,26 @@ let servicesLinkClose = document
 function showHoverMenuClose() {
   desktopHoverServices.style.display = 'none';
 }
+
+// Cookie Pop Up
+
+// const cookie = document.querySelector('.cookie-pop-up');
+// const goUpBtn = document.querySelector('.page-up-btn');
+
+// const closeCookieX = document
+//   .querySelector('.close-cookie')
+//   .addEventListener('click', closeX);
+
+// const closeCookieYes = document
+//   .querySelector('.close-cookie-yes')
+//   .addEventListener('click', closeYes);
+
+// function closeX() {
+//   cookie.style.display = 'none';
+//   goUpBtn.style.bottom = '5rem';
+// }
+
+// function closeYes() {
+//   cookie.style.display = 'none';
+//   goUpBtn.style.bottom = '5rem';
+// }
