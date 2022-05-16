@@ -8,6 +8,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.btn--active {
+  @extend %a;
+}
+
 /* Small Header */
 
 .small-header {
@@ -290,67 +294,10 @@ body {
   font-size: 1.3rem;
   padding-bottom: 5rem;
   line-height: 1.4;
-}
 
-//
-//
-//
-
-a.button {
-  margin: 20px;
-  font-size: 20px;
-}
-
-.arrow {
-  color: #0c5449;
-  background-color: #f6f3ed;
-  padding: 2rem;
-  // margin: 1em 0;
-  position: relative;
-
-  &::after {
-    transition: margin 200ms ease-out;
-    display: inline-block;
-    position: absolute;
-    bottom: 5px;
-    // padding-left: 8px;
-    content: '\0279E'; // arrow right unicode
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+  p {
+    margin-bottom: 3rem;
   }
-
-  &:hover {
-    color: #0c5449;
-    background-color: #f6f3ed;
-
-    &::after {
-      margin-left: 0.3rem;
-    }
-  }
-}
-
-//
-//
-//
-
-// .main-page-text a {
-//   width: 10rem;
-//   height: 2.3rem;
-//   border: none;
-//   margin-top: 1rem;
-//   background-color: #f90716;
-//   color: white;
-//   font-size: 1.2rem;
-//   cursor: pointer;
-//   text-align: center;
-//   border-radius: 5px;
-//   position: relative;
-// }
-
-.fa-arrow-right {
-  transition: margin 1s ease-in-out;
-  font-size: 0.9rem;
-  // margin-left: 0.6rem;
 }
 
 @media (max-width: 31.25em) {
@@ -497,16 +444,12 @@ a.button {
   opacity: 0.8;
 }
 
-.experience-text button {
-  width: 10rem;
-  height: 2.3rem;
-  border: none;
-  margin-top: 1rem;
-  background-color: #f90716;
-  color: white;
+.experience-text a {
   font-size: 1.2rem;
-  cursor: pointer;
-  text-align: center;
+}
+
+.experience-text a::after {
+  top: 2px;
 }
 
 @media (max-width: 72em) {
@@ -539,7 +482,7 @@ a.button {
 /* Car Services Cards */
 
 .services {
-  background: url('images/pattern.png'), rgb(231, 230, 230);
+  background: url('../../images/pattern.png'), rgb(231, 230, 230);
   color: #081336;
   padding: 5rem;
   background-size: cover;
@@ -904,16 +847,13 @@ a.button {
   font-size: 0.9rem;
 }
 
-.appointment button {
-  width: 10rem;
-  height: 3rem;
-  border: none;
-  background-color: white;
-  color: black;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  text-align: center;
+.appointment a {
+  color: $red;
+  background-color: $white;
+  font-size: 1.2rem;
+}
+.appointment a::after {
+  top: 2px;
 }
 
 .number-button {
@@ -1078,6 +1018,58 @@ footer a:hover {
   text-align: center;
 }
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+.footer-nav a {
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+  display: block;
+}
+
+.footer-nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: $red;
+  transition: opacity 300ms, transform 300ms;
+  opacity: 0;
+}
+
+.footer-nav a::after {
+  opacity: 1;
+  transform: translate3d(-100%, 0, 0);
+}
+
+.footer-nav a:hover::after,
+.footer-nav a:focus::after {
+  transform: translate3d(0, 0, 0);
+}
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* Footer Logo  */
 
 .logo-text {

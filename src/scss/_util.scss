@@ -1,3 +1,29 @@
 $red: #f90716;
 $blue: #081336;
 $white: #ffffff;
+
+%a {
+  color: $white;
+  background-color: $red;
+  padding: 0.5rem 3.5rem 0.5rem 1.5rem;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 3px;
+
+  &::after {
+    transition: margin 200ms ease-out;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    padding-left: 8px;
+    content: '\0279E';
+    font-size: 1.6rem;
+  }
+
+  &:hover {
+    &::after {
+      margin-left: 0.3rem;
+    }
+  }
+}
