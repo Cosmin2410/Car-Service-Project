@@ -3,11 +3,15 @@
 let nextBtn = document.querySelector('.next-button');
 let prevBtn = document.querySelector('.prev-button');
 
-nextBtn.addEventListener('click', moveToNextSlide);
-prevBtn.addEventListener('click', moveToPrevSlide);
+if (nextBtn) {
+  nextBtn.addEventListener('click', moveToNextSlide);
+}
+
+if (prevBtn) {
+  prevBtn.addEventListener('click', moveToPrevSlide);
+}
 
 //Images changing when button press
-
 let slidePositionImages = 0;
 let slidesImages = document.querySelectorAll('.image');
 const totalSlidesImages = slidesImages.length;
@@ -67,7 +71,6 @@ function moveToPrevSlide() {
   updateSlidePositionText();
   updateSlidePositionImages();
 }
-
 //
 //
 //
