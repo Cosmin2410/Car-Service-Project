@@ -154,6 +154,43 @@ class Footer extends HTMLElement {
 }
 customElements.define('get-footer', Footer);
 
+// Appointment
+
+class App extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `<div class="appointment">
+<div class="appointment-title">
+  <h2>Programează-ți o întâlnire astăzi</h2>
+  <p>Specialistii dumneavoastră în reparații și întreținere auto</p>
+</div>
+<div class="number-button">
+  <h2>+40 754 231 113</h2>
+  <a href="contact.html" class="btn--active">Contact</a>
+</div>
+</div>
+`;
+  }
+}
+customElements.define('get-app', App);
+
+// Discount
+
+class Discount extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
+    <div class="discount-services">
+    <i class="fa fa-percent"></i>
+    <h3>Programare online</h3>
+    <p>Face-ti o programare acum, mentionati ca veniti de pe site și beneficiază de o reducere de 10 RON.</p>
+    <a href="contact.html">Contact</a>
+  </div>
+
+`;
+  }
+}
+
+customElements.define('get-discount', Discount);
+
 // Testimonial
 
 let nextBtn = document.querySelector('.next-button');
