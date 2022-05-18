@@ -67,6 +67,8 @@
 
   ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
 
     li {
@@ -75,15 +77,13 @@
       a {
         color: $blue;
         text-decoration: none;
-
+        font-size: 1.3rem;
         @extend %line;
-        display: inline-block;
         opacity: 1;
-      }
-
-      a:hover {
-        // border-bottom: 2px solid $red;
-        // color: $red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3rem;
       }
     }
   }
@@ -96,6 +96,10 @@
     .down-arrow {
       display: none;
       width: 1.7rem;
+    }
+
+    .down-arrow-desktop {
+      width: 28px;
     }
   }
 
@@ -114,11 +118,11 @@
 
   .desktop-menu-services {
     position: absolute;
-    right: 8rem;
-    top: 7.7rem;
+    right: 11rem;
+    top: 6.6rem;
     background-color: $blue;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 3px;
     display: none;
     z-index: 1;
 
@@ -128,36 +132,17 @@
 
     a {
       color: white;
-      // @extend %line;
-      //
-      //
-      //
-      //
-      //
-      //
-      //
     }
   }
 
   .desktop-menu-services::before {
     content: '';
     border-style: solid;
-    border-width: 1.4rem 2.5rem;
+    border-width: 1.4rem 7.8rem;
     border-color: transparent;
     position: absolute;
-    top: -35px;
-    right: 4.5rem;
-  }
-
-  .desktop-menu-services::after {
-    content: '\A';
-    border-style: solid;
-    border-width: 15px 28.5px 17px 20px;
-    border-color: transparent #081336 transparent transparent;
-    position: absolute;
-    top: -10px;
-    right: 6rem;
-    transform: rotate(-31deg);
+    top: -15px;
+    right: 0rem;
   }
 }
 
@@ -190,14 +175,21 @@
           color: #081336;
           opacity: 1;
           font-size: 1.3rem;
+          position: relative;
         }
       }
 
       .down-arrow {
         display: inline-block;
         position: absolute;
-        margin-left: 0.5rem;
+        margin-left: 0rem;
+        top: 0;
+        left: 4.5rem;
         cursor: pointer;
+      }
+
+      .down-arrow-desktop {
+        display: none;
       }
     }
 

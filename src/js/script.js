@@ -28,7 +28,7 @@ class Header extends HTMLElement {
             <li><a  href="index.html">Acasa</a></li>
 
             <li class="services-links">
-              <a href="services.html">Servicii</a>
+              <a href="services.html">Servicii  <img class='down-arrow-desktop'  src="images/down-arrow.png" alt="arrow-down">  </a>
               <img
                 class="down-arrow"
                 src="images/down-arrow.png"
@@ -146,7 +146,7 @@ class Footer extends HTMLElement {
     <a href="GDPR/privacy.html">Privacy policy</a> ,
     <a href="GDPR/terms.html">Terms and conditions</a>
   </p>
-  <p>Created by NC Design</p>
+  <p>Created by NC Web Design</p>
 </div>
 </footer>
 `;

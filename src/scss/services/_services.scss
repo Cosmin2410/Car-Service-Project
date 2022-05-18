@@ -24,9 +24,9 @@
 .services-title p {
   max-width: 30rem;
   margin: 1rem auto;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
   opacity: 0.8;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .services-page {
@@ -50,16 +50,22 @@
 
 .service-card {
   width: 20rem;
-  border-bottom: solid 3px #f90716;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .link-arrow {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0.8rem 1.5rem;
   background-color: #081336;
   margin-top: -5px;
   text-align: center;
+  border-bottom: 4px solid $red;
 }
 
 .link-arrow .fa {
