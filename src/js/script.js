@@ -10,11 +10,11 @@ class Header extends HTMLElement {
 
       <div class="small-header">
         <div class="header-row-one">
-          <p>#1 Service Auto Multi-Marca</p>
+          <p>#1 Service Auto Multi-Marcă</p>
         </div>
         <div class="header-row-two">
-          <p>Luni - Vineri: 08:00 - 17:00 <br /> Sambata: 08:00 - 13:00  </p>
-          <p>Programeaza-te: <a href="tel:+0745 354 522">+0745 354 522</a></p>
+          <p>Luni - Vineri: 08:00 - 17:00 <br /> Sambată: 08:00 - 13:00  </p>
+          <p>Programează-te: <a href="tel:+0745 354 522">+0745 354 522</a></p>
         </div>
       </div>
 
@@ -25,7 +25,7 @@ class Header extends HTMLElement {
 
         <div class="links">
           <ul>
-            <li><a  href="index.html">Acasa</a></li>
+            <li><a  href="index.html">Acasă</a></li>
 
             <li class="services-links">
               <a href="services.html">Servicii  <img class='down-arrow-desktop'  src="images/down-arrow.png" alt="arrow-down">  </a>
@@ -35,32 +35,32 @@ class Header extends HTMLElement {
                 alt="arrow-down"
               />
               <div class="desktop-menu-services">
-                <p><a href="services-card1.html">Electrica Auto</a></p>
-                <p><a href="services-card2.html">Mecanica Auto</a></p>
-                <p><a href="services-card3.html">Service Sisteme De Racire</a></p>
-                <p><a href="services-card4.html">Service Si Reparatii Motoare</a></p>
-                <p><a href="services-card5.html">Schimb Kit Distributie <br /> Si Ambreiaj</a></p>
-                <p><a href="services-card6.html">Reparatii Suspensie <br /> Si Franare</a></p>
+                <p><a href="services-card1.html">Electrică Auto</a></p>
+                <p><a href="services-card2.html">Mecanică Auto</a></p>
+                <p><a href="services-card3.html">Service sisteme de răcire</a></p>
+                <p><a href="services-card4.html">Service Și Reparații Motoare</a></p>    
+                <p><a href="services-card5.html">Schimb Kit Distribuție <br /> Și Ambreiaj</a></p>
+                <p><a href="services-card6.html">Reparații Suspensie <br /> Și Frânare</a></p>
               </div>
             </li>
 
             <li class="services-menu">
-              <a href="services-card1.html">Electrica Auto</a>
+              <a href="services-card1.html">Electrică Auto</a>
             </li>
             <li class="services-menu">
-              <a href="services-card2.html">Mecanica Auto</a>
+              <a href="services-card2.html">Mecanică Auto</a>
             </li>
             <li class="services-menu">
-              <a href="services-card3.html">Service Sisteme De Racire</a>
+              <a href="services-card3.html">Service sisteme de răcire</a>
             </li>
             <li class="services-menu">
-              <a href="services-card4.html">Service Si Reparatii Motoare</a>
+              <a href="services-card4.html">Service Și Reparații Motoare</a>
             </li>
             <li class="services-menu">
-              <a href="services-card5.html">Schimb Kit Distributie <br /> Si Ambreiaj</a>
+              <a href="services-card5.html">Schimb Kit Distribuție <br /> Și Ambreiaj</a>
             </li>
             <li class="services-menu">
-              <a href="services-card6.html">Reparatii Suspensie <br /> Si Franare</a>
+              <a href="services-card6.html">Reparații Suspensie <br /> Și Frânare</a>
             </li>
             <li><a href="aboutus.html">Despre Noi</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -100,7 +100,7 @@ class Footer extends HTMLElement {
   <div class="contact phone">
     <img src="images/phone.png" />
     <div class="contact-text">
-      <p>Suna-ne la:</p>
+      <p>Sună-ne la:</p>
       <a href="tel:+0745 354 522">+0745 354 522</a>
     </div>
   </div>
@@ -114,7 +114,7 @@ class Footer extends HTMLElement {
 
   <div class="navigation">
     <h3>Link-uri Utile</h3>
-    <a href="index.html">Acasa </a>
+    <a href="index.html">Acasă </a>
     <a href="services.html"> Servicii </a>
     <a href="aboutus.html"> Despre Noi </a>
     <a href="contact.html"> Contact </a>
@@ -122,11 +122,11 @@ class Footer extends HTMLElement {
 
   <div class="footer-services">
     <h3>Serviciile Noastre</h3>
-    <a href="services-card1.html"> Electrica Auto </a>
-    <a href="services-card2.html"> Mecanica Auto </a>
-    <a href="services-card3.html"> Service Sisteme De Racire </a>
-    <a href="services-card4.html"> Service Si Reparatii Motoare </a>
-    <a href="services-card5.html"> Schimb Kit Distributie  Si Ambreiaj </a>
+    <a href="services-card1.html"> Electrică Auto </a>
+    <a href="services-card2.html"> Mecanică Auto </a>
+    <a href="services-card3.html"> Service sisteme de răcire </a>
+    <a href="services-card4.html"> Service Și Reparații Motoare </a>
+    <a href="services-card5.html"> Schimb Kit Distributie  Și Ambreiaj </a>
     <a href="services-card6.html"> Reparatii Suspensie  Si Franare </a>
   </div>
 
@@ -187,8 +187,8 @@ class Discount extends HTMLElement {
     this.innerHTML = `
     <div class="discount-services">
     <i class="fa fa-percent"></i>
-    <h3>Programare Telefonica</h3>
-    <p>Face-ti o programare acum, mentionati ca veniti de pe site și beneficiază de o reducere de 10 RON.</p>
+    <h3>Programare Telefonică</h3>
+    <p>Face-ți o programare acum, menționați că veniți de pe site și beneficiați de o reducere de 10 RON.</p>
     <a href="contact.html">Contact</a>
   </div>
 

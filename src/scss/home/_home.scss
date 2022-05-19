@@ -128,7 +128,7 @@ body {
 
 .reason p {
   opacity: 0.7;
-  width: 20rem;
+  max-width: 20rem;
   font-size: 1.2rem;
 }
 
@@ -136,10 +136,6 @@ body {
   .choose-us-reasons {
     justify-content: center;
     gap: 5rem;
-  }
-
-  .reason p {
-    width: 15rem;
   }
 }
 
