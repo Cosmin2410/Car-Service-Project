@@ -13,8 +13,8 @@ class Header extends HTMLElement {
           <p>#1 Service Auto Multi-Marca</p>
         </div>
         <div class="header-row-two">
-          <p>Luni - Sambata 8:00 - 18:00</p>
-          <p>Programează o întâlnire: +40 754 231 113</p>
+          <p>Luni - Vineri: 08:00 - 17:00 <br /> Sambata: 08:00 - 13:00  </p>
+          <p>Programeaza-te: <a href="tel:+0745 354 522">+0745 354 522</a></p>
         </div>
       </div>
 
@@ -84,24 +84,24 @@ class Footer extends HTMLElement {
   <div class="contact location">
     <img src="images/pin.png" />
     <div class="contact-text">
-      <p>54B, Tailstoi Town 5238 MT,</p>
-      <p>La city, IA 522364</p>
+      <p>Strada Pufuleti Nr.18</p>
+      <p>Rosu, Chiajna</p>
     </div>
   </div>
 
   <div class="contact mail">
     <img src="images/mail.png" />
     <div class="contact-text">
-      <p>Email us :</p>
-      <p>contact@example.com</p>
+      <p>Trimite-ne un mail: </p>
+      <a href = "mailto:ascompactservice@gmail.com">ascompactservice@gmail.com</a>
     </div>
   </div>
 
   <div class="contact phone">
     <img src="images/phone.png" />
     <div class="contact-text">
-      <p>Call us on :</p>
-      <p>+ 1800 456 7890</p>
+      <p>Suna-ne la:</p>
+      <a href="tel:+0745 354 522">+0745 354 522</a>
     </div>
   </div>
 </div>
@@ -109,14 +109,11 @@ class Footer extends HTMLElement {
 <div class="footer-nav">
   <div class="logo-text">
     <h3>Service Auto</h3>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat,
-      numquam!
-    </p>
+    <p>A&S Compact Service, service auto de calitate</p>
   </div>
 
   <div class="navigation">
-    <h3>Usefull Links</h3>
+    <h3>Link-uri Utile</h3>
     <a href="index.html">Acasa </a>
     <a href="services.html"> Servicii </a>
     <a href="aboutus.html"> Despre Noi </a>
@@ -124,7 +121,7 @@ class Footer extends HTMLElement {
   </div>
 
   <div class="footer-services">
-    <h3>Our Services</h3>
+    <h3>Serviciile Noastre</h3>
     <a href="services-card1.html"> Performance Upgrade </a>
     <a href="services-card2.html"> Transmission Services </a>
     <a href="services-card3.html"> Break Repair & Service </a>
@@ -135,8 +132,6 @@ class Footer extends HTMLElement {
 
   <div class="footer-social">
     <a href="#"><i class="fa fa-facebook-f"></i></a>
-    <a href="#"><i class="fa fa-instagram"></i></a>
-    <a href="#"> <i class="fa fa-twitter"></i></a>
   </div>
 </div>
 
@@ -152,7 +147,11 @@ class Footer extends HTMLElement {
 `;
   }
 }
+
 customElements.define('get-footer', Footer);
+
+//   <a href="#"><i class="fa fa-instagram"></i></a>
+//  <a href="#"> <i class="fa fa-twitter"></i></a>
 
 // Appointment
 
@@ -164,7 +163,7 @@ class App extends HTMLElement {
   <p>Specialistii dumneavoastră în reparații și întreținere auto</p>
 </div>
 <div class="number-button">
-  <h2>+40 754 231 113</h2>
+  <h2>+40 745 354 522</h2>
   <a href="contact.html" class="btn--active">Contact</a>
 </div>
 </div>
@@ -180,7 +179,7 @@ class Discount extends HTMLElement {
     this.innerHTML = `
     <div class="discount-services">
     <i class="fa fa-percent"></i>
-    <h3>Programare online</h3>
+    <h3>Programare Telefonica</h3>
     <p>Face-ti o programare acum, mentionati ca veniti de pe site și beneficiază de o reducere de 10 RON.</p>
     <a href="contact.html">Contact</a>
   </div>

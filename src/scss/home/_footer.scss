@@ -48,6 +48,10 @@ footer a {
   border: 1px solid rgba(255, 255, 255, 0.219);
   border-bottom: none;
   border-top: none;
+
+  a {
+    @extend %line;
+  }
 }
 
 .footer-contact img {
@@ -108,9 +112,14 @@ footer a {
   .phone {
     justify-content: start;
   }
+}
 
-  .email {
-    border-top: none;
+@media (max-width: 24.25em) {
+  .mail {
+    a {
+      word-wrap: break-word;
+      max-width: 10rem;
+    }
   }
 }
 
