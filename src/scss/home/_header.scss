@@ -126,8 +126,8 @@
 
   .desktop-menu-services {
     position: absolute;
-    right: 11rem;
-    top: 6.6rem;
+    right: 9.5rem;
+    top: 3.4rem;
     background-color: $blue;
     padding: 1rem;
     border-radius: 3px;
@@ -140,6 +140,9 @@
 
     a {
       color: white;
+      width: fit-content;
+      margin: 0 auto;
+      text-align: center;
     }
   }
 
@@ -184,6 +187,7 @@
           opacity: 1;
           font-size: 1.3rem;
           position: relative;
+          text-align: center;
         }
       }
 

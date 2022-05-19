@@ -38,11 +38,13 @@
   gap: 5rem;
   margin-top: 8rem;
   color: #081336;
+  padding: 0 1rem;
 }
 
 .image-aboutus img {
   max-width: 100%;
   height: auto;
+  border-radius: 2px;
 }
 
 .text-aboutus {
@@ -70,7 +72,7 @@
 
 @media (max-width: 63em) {
   .description-aboutus {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
 
@@ -85,7 +87,7 @@
   background-color: $red;
   color: white;
   margin: 5rem 0;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
 }
 
 .choose-us-text-icon h2 {
@@ -134,7 +136,7 @@
   height: auto;
 }
 
-@media (max-width: 99.37em) {
+@media (max-width: 59.375em) {
   .icon-text-aboutus img {
     width: 3.7rem;
   }

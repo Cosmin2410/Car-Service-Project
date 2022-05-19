@@ -166,7 +166,7 @@ body {
   justify-content: center;
   background-color: #081336;
   gap: 5rem;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
 }
 
 .experience img {
@@ -327,6 +327,7 @@ body {
   gap: 6rem;
   height: 30rem;
   color: #081336;
+  padding: 0 1rem;
 }
 
 .car-brand img {
@@ -632,6 +633,36 @@ body {
   justify-content: center;
   align-items: center;
   gap: 3rem;
+}
+
+.number-button a:first-child {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  opacity: 1;
+  @extend %line;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: $red;
+    transition: opacity 300ms, transform 300ms;
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+    background-color: white;
+  }
+
+  &:hover::before,
+  &:focus::before {
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 61.25em) {

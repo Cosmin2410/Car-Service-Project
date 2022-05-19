@@ -35,32 +35,32 @@ class Header extends HTMLElement {
                 alt="arrow-down"
               />
               <div class="desktop-menu-services">
-                <p><a href="services-card1.html">Performance Upgrade</a></p>
-                <p><a href="services-card2.html">Transmission Services</a></p>
-                <p><a href="services-card3.html">Break Repair & Service</a></p>
-                <p><a href="services-card4.html">Engine Service & Repair</a></p>
-                <p><a href="services-card5.html">Suspension Service</a></p>
-                <p><a href="services-card6.html">Cooling System Service</a></p>
+                <p><a href="services-card1.html">Electrica Auto</a></p>
+                <p><a href="services-card2.html">Mecanica Auto</a></p>
+                <p><a href="services-card3.html">Service Sisteme De Racire</a></p>
+                <p><a href="services-card4.html">Service Si Reparatii Motoare</a></p>
+                <p><a href="services-card5.html">Schimb Kit Distributie <br /> Si Ambreiaj</a></p>
+                <p><a href="services-card6.html">Reparatii Suspensie <br /> Si Franare</a></p>
               </div>
             </li>
 
             <li class="services-menu">
-              <a href="services-card1.html">Performance Upgrade</a>
+              <a href="services-card1.html">Electrica Auto</a>
             </li>
             <li class="services-menu">
-              <a href="services-card2.html">Transmission Services</a>
+              <a href="services-card2.html">Mecanica Auto</a>
             </li>
             <li class="services-menu">
-              <a href="services-card3.html">Break Repair & Service</a>
+              <a href="services-card3.html">Service Sisteme De Racire</a>
             </li>
             <li class="services-menu">
-              <a href="services-card4.html">Engine Service & Repair</a>
+              <a href="services-card4.html">Service Si Reparatii Motoare</a>
             </li>
             <li class="services-menu">
-              <a href="services-card5.html">Suspension Service</a>
+              <a href="services-card5.html">Schimb Kit Distributie <br /> Si Ambreiaj</a>
             </li>
             <li class="services-menu">
-              <a href="services-card6.html">Cooling System Service</a>
+              <a href="services-card6.html">Reparatii Suspensie <br /> Si Franare</a>
             </li>
             <li><a href="aboutus.html">Despre Noi</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -109,7 +109,7 @@ class Footer extends HTMLElement {
 <div class="footer-nav">
   <div class="logo-text">
     <h3>Service Auto</h3>
-    <p>A&S Compact Service, service auto de calitate</p>
+    <p>A&S Compact Service, Aervice Auto De Calitate</p>
   </div>
 
   <div class="navigation">
@@ -122,30 +122,38 @@ class Footer extends HTMLElement {
 
   <div class="footer-services">
     <h3>Serviciile Noastre</h3>
-    <a href="services-card1.html"> Performance Upgrade </a>
-    <a href="services-card2.html"> Transmission Services </a>
-    <a href="services-card3.html"> Break Repair & Service </a>
-    <a href="services-card4.html"> Engine Service & Repair </a>
-    <a href="services-card5.html"> Suspension Service </a>
-    <a href="services-card6.html"> Cooling System Service </a>
+    <a href="services-card1.html"> Electrica Auto </a>
+    <a href="services-card2.html"> Mecanica Auto </a>
+    <a href="services-card3.html"> Service Sisteme De Racire </a>
+    <a href="services-card4.html"> Service Si Reparatii Motoare </a>
+    <a href="services-card5.html"> Schimb Kit Distributie  Si Ambreiaj </a>
+    <a href="services-card6.html"> Reparatii Suspensie  Si Franare </a>
   </div>
 
   <div class="footer-social">
-    <a href="#"><i class="fa fa-facebook-f"></i></a>
+  <a href="https://www.facebook.com/ascompactservice" target="blank" class="social-margin">
+   <div class="social-icon facebook">
+     <i class="fa fa-facebook" aria-hidden="true"></i>
+   </div>
+   </a>  
   </div>
-</div>
 
-<div class="footer-copyright">
+  </div>
+  
+  <div class="footer-copyright">
   <p>
-    © Copyright Service Auto 2022. All right reserved <br />
-    <a href="GDPR/privacy.html">Privacy policy</a> ,
-    <a href="GDPR/terms.html">Terms and conditions</a>
+  © Copyright A&S Compact Service 2022.<br />
+  <a href="GDPR/privacy.html">Privacy policy</a> ,
+  <a href="GDPR/terms.html">Terms and conditions</a>
   </p>
   <p>Created by NC Web Design</p>
-</div>
-</footer>
-`;
+  </div>
+  </footer>
+  `;
   }
+}
+{
+  /* <a target=”_blank” href="https://www.facebook.com/ascompactservice"><i class="fa fa-facebook-f"></i></a> */
 }
 
 customElements.define('get-footer', Footer);
@@ -163,7 +171,7 @@ class App extends HTMLElement {
   <p>Specialistii dumneavoastră în reparații și întreținere auto</p>
 </div>
 <div class="number-button">
-  <h2>+40 745 354 522</h2>
+<a href="tel:+0745 354 522">+0745 354 522</a>
   <a href="contact.html" class="btn--active">Contact</a>
 </div>
 </div>

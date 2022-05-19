@@ -154,29 +154,78 @@ footer a {
 
 /* Footer Social */
 
-.footer-social a {
-  padding: 0.5rem;
-  color: white;
-  margin: 1rem;
-  border: 1.5px solid white;
-  border-radius: 50%;
-  display: inline;
+.footer-social a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
 
-  &::after {
-    display: none;
+.footer-social a::after {
+  display: none;
+}
+
+.social-icon {
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  -moz-border-radius: 138px;
+  -webkit-border-radius: 138px;
+  border-radius: 138px;
+  border: 5px solid;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 1px;
+  padding-top: 11px;
+  transition: all 0.5s;
+}
+
+.social-icon:hover {
+  transform: rotate(360deg) scale(1);
+}
+/* Facebook Button Styling */
+.facebook {
+  font-size: 22px;
+  padding-top: 9px;
+  border-color: #3b5998;
+  background-color: #3b5998;
+  color: #ffffff;
+}
+.facebook:hover {
+  background-color: #ffffff;
+  color: #3b5998;
+}
+
+// .footer-social a {
+//   color: white;
+//   margin: 1rem;
+//   display: inline;
+//   font-size: 2rem;
+//   display: flex;
+//   border: 1.5px solid white;
+//   border-radius: 50%;
+//   padding: 1rem;
+//   &::after {
+//     display: none;
+//   }
+// }
+
+// .footer-social a:hover {
+//   border: 1.5px solid #f90716;
+// }
+
+.footer-services {
+  a {
+    margin-bottom: 0.8rem;
   }
 }
 
-.footer-social a:hover {
-  border: 1.5px solid #f90716;
-}
-
 .footer-social .fa {
-  font-size: 1.1rem;
-  height: 20px;
-  width: 20px;
-  text-align: center;
-  margin-top: 2rem;
+  font-size: 1.5rem;
+  // border: 1.5px solid white;
+  // padding: 0.6rem;
+  // border-radius: 50%;
 }
 
 @media (max-width: 61.25em) {
