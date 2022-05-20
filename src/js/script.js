@@ -109,7 +109,7 @@ class Footer extends HTMLElement {
 <div class="footer-nav">
   <div class="logo-text">
     <h3>Service Auto</h3>
-    <p>A&S Compact Service, Aervice Auto De Calitate</p>
+    <p>A&S Compact Service, Service Auto De Calitate</p>
   </div>
 
   <div class="navigation">
