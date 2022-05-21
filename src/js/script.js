@@ -347,6 +347,8 @@ function showHoverMenuClose() {
 //
 //
 
+// Test Commit
+
 // Count numbers when the page is scrolled
 // if (window.location.pathname == 'https://ascompactservice.ro/Despre-Noi/') {
 let executed = false;
