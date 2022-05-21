@@ -5,7 +5,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
     <header>
       <div class="page-up-btn">
-        <a href="#"> <img src="images/arrowhead-up.png" alt="arrow-top" /> </a>
+        <a href="#"> <img src="dist/images/arrowhead-up.webp" alt="arrow-top" /> </a>
       </div>
 
       <div class="small-header">
@@ -28,10 +28,10 @@ class Header extends HTMLElement {
             <li><a  href="index.html">Acasă</a></li>
 
             <li class="services-links">
-              <a href="services.html">Servicii  <img class='down-arrow-desktop'  src="images/down-arrow.png" alt="arrow-down">  </a>
+              <a href="services.html">Servicii  <img class='down-arrow-desktop'  src="dist/images/down-arrow.webp" alt="arrow-down">  </a>
               <img
                 class="down-arrow"
-                src="images/down-arrow.png"
+                src="dist/images/down-arrow.webp"
                 alt="arrow-down"
               />
               <div class="desktop-menu-services">
@@ -82,7 +82,7 @@ class Footer extends HTMLElement {
     this.innerHTML = ` <footer>
 <div class="footer-contact">
   <div class="contact location">
-    <img src="images/pin.png" />
+    <img src="dist/images/pin.webp" alt="maps pin" />
     <div class="contact-text">
       <p>Strada Pufuleti Nr.18</p>
       <p>Rosu, Chiajna</p>
@@ -90,7 +90,7 @@ class Footer extends HTMLElement {
   </div>
 
   <div class="contact mail">
-    <img src="images/mail.png" />
+    <img src="dist/images/mail.webp" alt="illustration of a envelope" />
     <div class="contact-text">
       <p>Trimite-ne un mail: </p>
       <a href = "mailto:ascompactservice@gmail.com">ascompactservice@gmail.com</a>
@@ -98,7 +98,7 @@ class Footer extends HTMLElement {
   </div>
 
   <div class="contact phone">
-    <img src="images/phone.png" />
+    <img src="dist/images/phone.webp" alt="illustration of a phone" />
     <div class="contact-text">
       <p>Sună-ne la:</p>
       <a href="tel:+0745 354 522">+0745 354 522</a>

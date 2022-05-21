@@ -15,7 +15,7 @@ body {
 /* Main Page */
 
 .main-page {
-  background: url('../../images/header.jpg');
+  background: url('../../dist/images/header.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -241,7 +241,7 @@ body {
 /* Car Services Cards */
 
 .services {
-  background: url('../../images/pattern.png'), rgb(231, 230, 230);
+  background: url('../../dist/images/pattern.webp'), rgb(231, 230, 230);
   color: #081336;
   padding: 5rem;
   background-size: cover;
@@ -450,7 +450,7 @@ body {
 /* Left side testimonial */
 
 .review-images-title {
-  background: url('../../images/bg-3.png');
+  background: url('../../dist/images/bg-3.webp');
   background-color: #081336;
   background-repeat: no-repeat;
   background-size: cover;
