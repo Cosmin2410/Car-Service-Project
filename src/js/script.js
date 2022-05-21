@@ -19,16 +19,16 @@ class Header extends HTMLElement {
       </div>
 
       <nav class="header">
-        <h1 class="logo"><a href="index.html">Service Auto</a></h1>
+        <h1 class="logo"><a href="https://ascompactservice.ro/">Service Auto</a></h1>
 
         <img src="../../dist/images/phone-menu.webp" class="toggle-button" />
 
         <div class="links">
           <ul>
-            <li><a  href="index.html">Acasă</a></li>
+            <li><a  href="https://ascompactservice.ro/">Acasă</a></li>
 
             <li class="services-links">
-              <a href="services.html">Servicii  <img class='down-arrow-desktop'  src="../../dist/images/down-arrow.webp" alt="arrow-down">  </a>
+              <a href="https://ascompactservice.ro/Servicii/">Servicii  <img class='down-arrow-desktop'  src="../../dist/images/down-arrow.webp" alt="arrow-down">  </a>
               <img
                 class="down-arrow"
                 src="../../dist/images/down-arrow.webp"
@@ -62,7 +62,7 @@ class Header extends HTMLElement {
             <li class="services-menu">
               <a href="https://ascompactservice.ro/../Servicii/Suspensie-Frane/">Reparații Suspensie <br /> Și Frânare</a>
             </li>
-            <li><a href="aboutus.html">Despre Noi</a></li>
+            <li><a href="https://ascompactservice.ro/Despre-Noi/">Despre Noi</a></li>
             <li><a href="https://ascompactservice.ro/Contact/">Contact</a></li>
           </ul>
         </div>
@@ -114,9 +114,9 @@ class Footer extends HTMLElement {
 
   <div class="navigation">
     <h3>Link-uri Utile</h3>
-    <a href="index.html">Acasă </a>
-    <a href="services.html"> Servicii </a>
-    <a href="aboutus.html"> Despre Noi </a>
+    <a href="https://ascompactservice.ro/">Acasă </a>
+    <a href="https://ascompactservice.ro/Servicii/"> Servicii </a>
+    <a href="https://ascompactservice.ro/Despre-Noi/"> Despre Noi </a>
     <a href="https://ascompactservice.ro/Contact/"> Contact </a>
   </div>
 
@@ -354,7 +354,7 @@ function showHoverMenuClose() {
 //
 
 // Count numbers when the page is scrolled
-if (window.location.pathname == '/aboutus.html') {
+if (window.location.pathname == '/https://ascompactservice.ro/Despre-Noi/') {
   let executed = false;
   window.addEventListener('scroll', () => {
     let content = document.querySelector('.count-number');
