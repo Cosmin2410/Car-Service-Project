@@ -354,7 +354,7 @@ function showHoverMenuClose() {
 //
 
 // Count numbers when the page is scrolled
-if (window.location.pathname == '/https://ascompactservice.ro/Despre-Noi/') {
+if (window.location.pathname == 'https://ascompactservice.ro/Despre-Noi/') {
   let executed = false;
   window.addEventListener('scroll', () => {
     let content = document.querySelector('.count-number');
