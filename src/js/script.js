@@ -5,7 +5,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
     <header>
       <div class="page-up-btn">
-        <a href="#"> <img src="dist/images/arrowhead-up.webp" alt="arrow-top" /> </a>
+        <a href="#"> <img src="../../dist/images/arrowhead-up.webp" alt="arrow-top" /> </a>
       </div>
 
       <div class="small-header">
@@ -21,46 +21,46 @@ class Header extends HTMLElement {
       <nav class="header">
         <h1 class="logo"><a href="index.html">Service Auto</a></h1>
 
-        <img src="dist/images/phone-menu.webp" class="toggle-button" />
+        <img src="../../dist/images/phone-menu.webp" class="toggle-button" />
 
         <div class="links">
           <ul>
             <li><a  href="index.html">Acasă</a></li>
 
             <li class="services-links">
-              <a href="services.html">Servicii  <img class='down-arrow-desktop'  src="dist/images/down-arrow.webp" alt="arrow-down">  </a>
+              <a href="services.html">Servicii  <img class='down-arrow-desktop'  src="../../dist/images/down-arrow.webp" alt="arrow-down">  </a>
               <img
                 class="down-arrow"
-                src="dist/images/down-arrow.webp"
+                src="../../dist/images/down-arrow.webp"
                 alt="arrow-down"
               />
               <div class="desktop-menu-services">
-                <p><a href="services-card1.html">Electrică Auto</a></p>
-                <p><a href="services-card2.html">Mecanică Auto</a></p>
-                <p><a href="services-card3.html">Service sisteme de răcire</a></p>
-                <p><a href="services-card4.html">Service Și Reparații Motoare</a></p>    
-                <p><a href="services-card5.html">Schimb Kit Distribuție <br /> Și Ambreiaj</a></p>
-                <p><a href="services-card6.html">Reparații Suspensie <br /> Și Frânare</a></p>
+                <p><a href="https://ascompactservice.ro/../Servicii/Electrica-Auto/">Electrică Auto</a></p>
+                <p><a href="https://ascompactservice.ro/../Servicii/Mecanica-Auto/">Mecanică Auto</a></p>
+                <p><a href="https://ascompactservice.ro/../Servicii/Sisteme-De-Racire/">Service sisteme de răcire</a></p>
+                <p><a href="https://ascompactservice.ro/../Servicii/Reparatii-Motoare/">Service Și Reparații Motoare</a></p>    
+                <p><a href="https://ascompactservice.ro/../Servicii/Distributie-Ambreiaj/">Schimb Kit Distribuție <br /> Și Ambreiaj</a></p>
+                <p><a href="https://ascompactservice.ro/../Servicii/Suspensie-Frane/">Reparații Suspensie <br /> Și Frânare</a></p>
               </div>
             </li>
 
             <li class="services-menu">
-              <a href="services-card1.html">Electrică Auto</a>
+              <a href="https://ascompactservice.ro/../Servicii/Electrica-Auto/">Electrică Auto</a>
             </li>
             <li class="services-menu">
-              <a href="services-card2.html">Mecanică Auto</a>
+              <a href="https://ascompactservice.ro/../Servicii/Mecanica-Auto/">Mecanică Auto</a>
             </li>
             <li class="services-menu">
-              <a href="services-card3.html">Service sisteme de răcire</a>
+              <a href="https://ascompactservice.ro/../Servicii/Sisteme-De-Racire/">Service sisteme de răcire</a>
             </li>
             <li class="services-menu">
-              <a href="services-card4.html">Service Și Reparații Motoare</a>
+              <a href="https://ascompactservice.ro/../Servicii/Reparatii-Motoare/">Service Și Reparații Motoare</a>
             </li>
             <li class="services-menu">
-              <a href="services-card5.html">Schimb Kit Distribuție <br /> Și Ambreiaj</a>
+              <a href="https://ascompactservice.ro/../Servicii/Distributie-Ambreiaj/">Schimb Kit Distribuție <br /> Și Ambreiaj</a>
             </li>
             <li class="services-menu">
-              <a href="services-card6.html">Reparații Suspensie <br /> Și Frânare</a>
+              <a href="https://ascompactservice.ro/../Servicii/Suspensie-Frane/">Reparații Suspensie <br /> Și Frânare</a>
             </li>
             <li><a href="aboutus.html">Despre Noi</a></li>
             <li><a href="https://ascompactservice.ro/Contact/">Contact</a></li>
@@ -122,12 +122,12 @@ class Footer extends HTMLElement {
 
   <div class="footer-services">
     <h3>Serviciile Noastre</h3>
-    <a href="services-card1.html"> Electrică Auto </a>
-    <a href="services-card2.html"> Mecanică Auto </a>
-    <a href="services-card3.html"> Service sisteme de răcire </a>
-    <a href="services-card4.html"> Service Și Reparații Motoare </a>
-    <a href="services-card5.html"> Schimb Kit Distributie  Și Ambreiaj </a>
-    <a href="services-card6.html"> Reparatii Suspensie  Si Franare </a>
+    <a href="https://ascompactservice.ro/../Servicii/Electrica-Auto/"> Electrică Auto </a>
+    <a href="https://ascompactservice.ro/../Servicii/Mecanica-Auto/"> Mecanică Auto </a>
+    <a href="https://ascompactservice.ro/../Servicii/Sisteme-De-Racire/"> Service sisteme de răcire </a>
+    <a href="https://ascompactservice.ro/../Servicii/Reparatii-Motoare/"> Service Și Reparații Motoare </a>
+    <a href="https://ascompactservice.ro/../Servicii/Distributie-Ambreiaj/"> Schimb Kit Distributie  Și Ambreiaj </a>
+    <a href="https://ascompactservice.ro/../Servicii/Suspensie-Frane/"> Reparatii Suspensie  Si Franare </a>
   </div>
 
   <div class="footer-social">
