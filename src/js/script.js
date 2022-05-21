@@ -365,6 +365,7 @@ if (window.location.pathname == 'https://ascompactservice.ro/Despre-Noi/') {
 
       numbers.forEach((number) => {
         number.innerHTML = '0';
+        console.log('scroll');
 
         const loopCounter = () => {
           dataAttr = +number.getAttribute('data-counter');
