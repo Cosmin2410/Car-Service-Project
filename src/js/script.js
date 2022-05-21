@@ -353,37 +353,6 @@ function showHoverMenuClose() {
 
 // Count numbers when the page is scrolled
 // if (window.location.pathname == 'https://ascompactservice.ro/Despre-Noi/') {
-<<<<<<< HEAD
-let executed = false;
-window.addEventListener('scroll', () => {
-  let content = document.querySelector('.count-number');
-  let contentPosition = content.getBoundingClientRect().top;
-  let screenPosition = window.innerHeight;
-  if (!executed && contentPosition < screenPosition) {
-    const numbers = document.querySelectorAll('.number');
-
-    numbers.forEach((number) => {
-      number.innerHTML = '0';
-      console.log('scroll');
-
-      const loopCounter = () => {
-        dataAttr = +number.getAttribute('data-counter');
-        initialValue = +number.innerHTML;
-        divideDataAttr = dataAttr / 450;
-        if (initialValue < dataAttr) {
-          number.innerHTML = `${Math.ceil(initialValue + divideDataAttr)}`;
-          executed = true;
-          setTimeout(loopCounter, 1);
-        } else {
-          number.innerHTML = dataAttr;
-        }
-      };
-      loopCounter();
-    });
-  }
-});
-// }
-=======
 
 let executed = false;
 
@@ -419,7 +388,6 @@ if (content) {
 } else {
   console.log('it does not exist');
 }
->>>>>>> f61eae07055f25b6976e4c44019634bda7d9e220
 
 // }
 
