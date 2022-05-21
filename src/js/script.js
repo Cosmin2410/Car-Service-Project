@@ -382,8 +382,6 @@ if (content) {
       });
     }
   });
-} else {
-  console.log('it does not exist');
 }
 
 // }

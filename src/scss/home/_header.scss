@@ -128,7 +128,7 @@
   .desktop-menu-services {
     position: absolute;
     right: 9.5rem;
-    top: 3.4rem;
+    top: 5.3rem;
     background-color: $blue;
     padding: 1rem;
     border-radius: 3px;
@@ -150,11 +150,11 @@
   .desktop-menu-services::before {
     content: '';
     border-style: solid;
-    border-width: 1.4rem 7.8rem;
+    border-width: 1.4rem 8rem;
     border-color: transparent;
     position: absolute;
-    top: -15px;
-    right: 0rem;
+    top: -25px;
+    right: 1rem;
   }
 }
 
