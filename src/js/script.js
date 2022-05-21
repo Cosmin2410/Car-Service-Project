@@ -19,7 +19,7 @@ class Header extends HTMLElement {
       </div>
 
       <nav class="header">
-        <h1 class="logo"><a href="https://ascompactservice.ro/">Service Auto</a></h1>
+        <h1 class="logo"><a href="https://ascompactservice.ro/">A&S Compact Service</a></h1>
 
         <img src="../../dist/images/phone-menu.webp" class="toggle-button" />
 
@@ -108,8 +108,8 @@ class Footer extends HTMLElement {
 
 <div class="footer-nav">
   <div class="logo-text">
-    <h3>Service Auto</h3>
-    <p>A&S Compact Service, Service Auto De Calitate</p>
+    <h3>A&S Compact Service</h3>
+    <p>Service Auto De Calitate</p>
   </div>
 
   <div class="navigation">
