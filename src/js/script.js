@@ -90,7 +90,7 @@ class Footer extends HTMLElement {
   </div>
 
   <div class="contact mail">
-    <img src="dist/images/mail.webp" alt="illustration of a envelope" />
+    <img src="../../dist/images/mail.webp" alt="illustration of a envelope" />
     <div class="contact-text">
       <p>Trimite-ne un mail: </p>
       <a href = "mailto:ascompactservice@gmail.com">ascompactservice@gmail.com</a>
@@ -98,7 +98,7 @@ class Footer extends HTMLElement {
   </div>
 
   <div class="contact phone">
-    <img src="dist/images/phone.webp" alt="illustration of a phone" />
+    <img src="../../dist/images/phone.webp" alt="illustration of a phone" />
     <div class="contact-text">
       <p>Sună-ne la:</p>
       <a href="tel:+0745 354 522">+0745 354 522</a>
