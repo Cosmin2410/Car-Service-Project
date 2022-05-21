@@ -63,7 +63,7 @@ class Header extends HTMLElement {
               <a href="services-card6.html">Reparații Suspensie <br /> Și Frânare</a>
             </li>
             <li><a href="aboutus.html">Despre Noi</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="https://ascompactservice.ro/Contact/">Contact</a></li>
           </ul>
         </div>
         <div class="background"></div>
@@ -117,7 +117,7 @@ class Footer extends HTMLElement {
     <a href="index.html">Acasă </a>
     <a href="services.html"> Servicii </a>
     <a href="aboutus.html"> Despre Noi </a>
-    <a href="contact.html"> Contact </a>
+    <a href="https://ascompactservice.ro/Contact/"> Contact </a>
   </div>
 
   <div class="footer-services">
@@ -172,12 +172,13 @@ class App extends HTMLElement {
 </div>
 <div class="number-button">
 <a href="tel:+0745 354 522">+0745 354 522</a>
-  <a href="contact.html" class="btn--active">Contact</a>
+  <a href="https://ascompactservice.ro/Contact/" class="btn--active">Contact</a>
 </div>
 </div>
 `;
   }
 }
+
 customElements.define('get-app', App);
 
 // Discount
@@ -189,7 +190,7 @@ class Discount extends HTMLElement {
     <i class="fa fa-percent"></i>
     <h3>Programare Telefonică</h3>
     <p>Face-ți o programare acum, menționați că veniți de pe site și beneficiați de o reducere de 10 RON.</p>
-    <a href="contact.html">Contact</a>
+    <a href="https://ascompactservice.ro/Contact/">Contact</a>
   </div>
 
 `;
