@@ -19,7 +19,7 @@ class Header extends HTMLElement {
       </div>
 
       <nav class="header">
-        <h1 class="logo"><a href="https://ascompactservice.ro/">A&S Compact Service</a></h1>
+        <a class="logo" href="https://ascompactservice.ro/"> <img width="150" src="../../dist/images/Sigla firma.webp" /> </a>
 
         <img src="../../dist/images/phone-menu.webp" class="toggle-button" />
 
@@ -152,14 +152,8 @@ class Footer extends HTMLElement {
   `;
   }
 }
-{
-  /* <a target=”_blank” href="https://www.facebook.com/ascompactservice"><i class="fa fa-facebook-f"></i></a> */
-}
 
 customElements.define('get-footer', Footer);
-
-//   <a href="#"><i class="fa fa-instagram"></i></a>
-//  <a href="#"> <i class="fa fa-twitter"></i></a>
 
 // Appointment
 
@@ -353,11 +347,51 @@ function showHoverMenuClose() {
 //
 //
 
+// Test Commit
+// Test Commit two
+// Test Commit two
+
 // Count numbers when the page is scrolled
-if (window.location.pathname == 'https://ascompactservice.ro/Despre-Noi/') {
-  let executed = false;
+// if (window.location.pathname == 'https://ascompactservice.ro/Despre-Noi/') {
+<<<<<<< HEAD
+let executed = false;
+window.addEventListener('scroll', () => {
+  let content = document.querySelector('.count-number');
+  let contentPosition = content.getBoundingClientRect().top;
+  let screenPosition = window.innerHeight;
+  if (!executed && contentPosition < screenPosition) {
+    const numbers = document.querySelectorAll('.number');
+
+    numbers.forEach((number) => {
+      number.innerHTML = '0';
+      console.log('scroll');
+
+      const loopCounter = () => {
+        dataAttr = +number.getAttribute('data-counter');
+        initialValue = +number.innerHTML;
+        divideDataAttr = dataAttr / 450;
+        if (initialValue < dataAttr) {
+          number.innerHTML = `${Math.ceil(initialValue + divideDataAttr)}`;
+          executed = true;
+          setTimeout(loopCounter, 1);
+        } else {
+          number.innerHTML = dataAttr;
+        }
+      };
+      loopCounter();
+    });
+  }
+});
+// }
+=======
+
+let executed = false;
+
+let content = document.querySelector('.count-number');
+
+if (content) {
   window.addEventListener('scroll', () => {
-    let content = document.querySelector('.count-number');
+    // let content = document.querySelector('.count-number');
     let contentPosition = content.getBoundingClientRect().top;
     let screenPosition = window.innerHeight;
     if (!executed && contentPosition < screenPosition) {
@@ -365,7 +399,6 @@ if (window.location.pathname == 'https://ascompactservice.ro/Despre-Noi/') {
 
       numbers.forEach((number) => {
         number.innerHTML = '0';
-        console.log('scroll');
 
         const loopCounter = () => {
           dataAttr = +number.getAttribute('data-counter');
@@ -383,7 +416,12 @@ if (window.location.pathname == 'https://ascompactservice.ro/Despre-Noi/') {
       });
     }
   });
+} else {
+  console.log('it does not exist');
 }
+>>>>>>> f61eae07055f25b6976e4c44019634bda7d9e220
+
+// }
 
 // Cookie Pop Up
 
