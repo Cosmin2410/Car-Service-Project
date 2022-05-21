@@ -82,7 +82,7 @@ class Footer extends HTMLElement {
     this.innerHTML = ` <footer>
 <div class="footer-contact">
   <div class="contact location">
-    <img src="../dist/images/pin.webp" alt="maps pin" />
+    <img src="../../dist/images/pin.webp" alt="maps pin" />
     <div class="contact-text">
       <p>Strada Pufuleti Nr.18</p>
       <p>Rosu, Chiajna</p>
