@@ -143,7 +143,7 @@ class Footer extends HTMLElement {
   <div class="footer-copyright">
   <p>
   © Copyright A&S Compact Service 2022.<br />
-  <a href="https://ascompactservice.ro/GDPR/Privacy-Policy/">Privacy policy</a> ,
+  <a href="https://ascompactservice.ro/Privacy-Policy/">Privacy policy</a> ,
   <a href="https://ascompactservice.ro/GDPR/Terms-And-Conditions/">Terms and conditions</a>
   </p>
   <p>Created by NC Web Design</p>
