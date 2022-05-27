@@ -144,7 +144,7 @@ class Footer extends HTMLElement {
   <p>
   © Copyright A&S Compact Service 2022.<br />
   <a href="GDPR/Privacy-Policy/">Privacy policy</a> ,
-  <a href="GDPR/terms.html">Terms and conditions</a>
+  <a href="GDPR/Terms-And-Conditions/">Terms and conditions</a>
   </p>
   <p>Created by NC Web Design</p>
   </div>
