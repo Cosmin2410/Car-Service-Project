@@ -183,10 +183,9 @@ class Discount extends HTMLElement {
     <div class="discount-services">
     <i class="fa fa-percent"></i>
     <h3>Programare Telefonică</h3>
-    <p>Face-ți o programare acum, menționați că veniți de pe site și beneficiați de o reducere de 10 RON.</p>
+    <p>Face-ți o programare acum, menționați că veniți de pe site și beneficiați de o reducere de 10%.</p>
     <a href="https://ascompactservice.ro/Contact/">Contact</a>
   </div>
-
 `;
   }
 }
