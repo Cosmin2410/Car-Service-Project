@@ -14,7 +14,7 @@ class Header extends HTMLElement {
         </div>
         <div class="header-row-two">
           <p>Luni - Vineri: 08:00 - 17:00 <br /> Sambată: 08:00 - 13:00  </p>
-          <p>Programează-te: <a href="tel:+0745 354 522">+0745 354 522</a></p>
+          <p>Programează-te: <a href="tel:+0758 885 511">+0758 885 511</a></p>
         </div>
       </div>
 
@@ -38,7 +38,7 @@ class Header extends HTMLElement {
                 <p><a href="https://ascompactservice.ro/../Servicii/Electrica-Auto/">Electrică Auto</a></p>
                 <p><a href="https://ascompactservice.ro/../Servicii/Mecanica-Auto/">Mecanică Auto</a></p>
                 <p><a href="https://ascompactservice.ro/../Servicii/Sisteme-De-Racire/">Service sisteme de răcire</a></p>
-                <p><a href="https://ascompactservice.ro/../Servicii/Reparatii-Motoare/">Service Și Reparații Motoare</a></p>    
+                <p><a href="https://ascompactservice.ro/../Servicii/Reparatii-Motoare/">Service Și Reparații Motoare</a></p>
                 <p><a href="https://ascompactservice.ro/../Servicii/Distributie-Ambreiaj/">Schimb Kit Distribuție <br /> Și Ambreiaj</a></p>
                 <p><a href="https://ascompactservice.ro/../Servicii/Suspensie-Frane/">Reparații Suspensie <br /> Și Frânare</a></p>
               </div>
@@ -101,7 +101,7 @@ class Footer extends HTMLElement {
     <img src="../../dist/images/phone.webp" alt="illustration of a phone" />
     <div class="contact-text">
       <p>Sună-ne la:</p>
-      <a href="tel:+0745 354 522">+0745 354 522</a>
+      <a href="tel:+0758 885 511">+0758 885 511</a>
     </div>
   </div>
 </div>
@@ -135,11 +135,11 @@ class Footer extends HTMLElement {
    <div class="social-icon facebook">
      <i class="fa fa-facebook" aria-hidden="true"></i>
    </div>
-   </a>  
+   </a>
   </div>
 
   </div>
-  
+
   <div class="footer-copyright">
   <p>
   © Copyright A&S Compact Service 2022.<br />
@@ -165,7 +165,7 @@ class App extends HTMLElement {
   <p>Specialistii dumneavoastră în reparații și întreținere auto</p>
 </div>
 <div class="number-button">
-<a href="tel:+0745 354 522">+0745 354 522</a>
+<a href="tel:+0758 885 511">+0758 885 511</a>
   <a href="https://ascompactservice.ro/Contact/" class="btn--active">Contact</a>
 </div>
 </div>

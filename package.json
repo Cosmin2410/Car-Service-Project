@@ -1,0 +1,34 @@
+{
+  "name": "car-service-project",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cosmin2410/Car-Service-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cosmin2410/Car-Service-Project/issues"
+  },
+  "homepage": "https://github.com/Cosmin2410/Car-Service-Project#readme",
+  "description": "",
+  "devDependencies": {
+    "exact": "^0.8.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-webp": "^4.0.1",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "webp-converter": "2.2.3"
+  }
+}
