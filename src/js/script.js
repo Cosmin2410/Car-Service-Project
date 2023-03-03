@@ -14,7 +14,7 @@ class Header extends HTMLElement {
         </div>
         <div class="header-row-two">
           <p>Luni - Vineri: 08:00 - 17:00 <br /> Sambată: 08:00 - 13:00  </p>
-          <p>Programează-te: <a href="tel:+0758 885 511">+0758 885 511</a></p>
+          <p>Programează-te: <a href="tel:+40758 885 511">+40758 885 511</a></p>
         </div>
       </div>
 
@@ -101,7 +101,7 @@ class Footer extends HTMLElement {
     <img src="../../dist/images/phone.webp" alt="illustration of a phone" />
     <div class="contact-text">
       <p>Sună-ne la:</p>
-      <a href="tel:+0758 885 511">+0758 885 511</a>
+      <a href="tel:+40758 885 511">+40758 885 511</a>
     </div>
   </div>
 </div>
@@ -165,7 +165,7 @@ class App extends HTMLElement {
   <p>Specialistii dumneavoastră în reparații și întreținere auto</p>
 </div>
 <div class="number-button">
-<a href="tel:+0758 885 511">+0758 885 511</a>
+<a href="tel:+40758 885 511">+40758 885 511</a>
   <a href="https://ascompactservice.ro/Contact/" class="btn--active">Contact</a>
 </div>
 </div>
